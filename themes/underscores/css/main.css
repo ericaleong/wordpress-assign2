@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Assistant|Frank+Ruhl+Libre&display=swap');
+
+/* --- Global changes to site --- */
+body {
+  background-color: #FFF8F0;
+  color: #111D4A;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* --- Hides the Assignment 2 title & 'Just another WordPress site' */
+.site-branding {
+  display: none;
+}
+
+
+/* --- Navigation --- */
+.main-navigation {
+  display: flex;
+  justify-content: center;
+
+  padding: 0.5em;
+
+  background-color: #BA9770;
+
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 18px;
+}
+
+.menu a {
+  padding: 1em;
+
+  text-decoration: none;
+  color: #92140C;
+}
+
+.menu a:hover {
+  color: #FFCF99;
+}
+
+.current_page_item {
+  background-color: #FFCF99;
+}
+
+
+/* --- Titles --- */
+.entry-title {
+  display: flex;
+  justify-content: center;
+
+  font-family: 'Assistant', sans-serif;
+  font-size: 48px;
+  letter-spacing: 0.2vw;
+}
+
+
+/* --- The rest of the Content ---*/
+.post-thumbnail {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  margin: 0 8vw;
+
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 18px;
+
+}
+
+.entry-content ul {
+  margin: 5vh 8vw 0 8vw;
+
+  font-size: 24px;
+  font-family: 'Assistant', sans-serif;
+}
+
+.entry-content a {
+  color: #92140C;
+}
+
+.entry-meta {
+  display: none;
+}
+
+
+/* --- About Section --- */
+table {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 2em;
+}
+
+td {
+  text-align: center;
+}
+
+td a {
+  font-size: 20px;
+  font-family: 'Frank Ruhl Libre', serif;
+}
+
+td a:hover {
+ color: #FFCF99;
+}
+
+td img {
+  margin: 0 3em;
+}
+
+/* --- Contact Section --- */
+.ol-layer {
+  margin-top: 5vh;
+}
+
+/* --- Search Form, Site Info & Footer  */
+.search-form {
+  margin-top: 10vh;
+  margin-left: 5vw;
+}
+
+.search-field {
+  font-family: 'Frank Ruhl Libre', serif;
+}
+
+.search-submit {
+  font-family: 'Assistant', sans-serif;
+}
+
+.entry-footer, .site-info {
+  display: none;
+}
+
